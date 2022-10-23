@@ -1,4 +1,14 @@
-let hello = (name) => {
-    return `hello welcome $(name)`;
+let hello = () => {
+    return `hello welcome `;
 }
-console.log(hello("ali"));
+console.log(hello());
+
+
+ const hl= function hello () {
+    
+    return "hello world"
+}
+
+
+// hello()
+console.log(hl);
